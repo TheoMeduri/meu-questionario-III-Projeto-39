@@ -49,7 +49,11 @@ class Quiz {
 
       for(var plr in allContestants){
         debugger;
-        var correctAns = "3";
+        var correctAns = "2";
+        if(correctAns === allContestants[plr].answer)
+        fill("Green")
+        else
+        fill("Red");
 //verifique se a condição para a resposta dos jogadores e a resposta correta são iguais
 //se for igual preencha com verde
 //se não preencha com vermelho
